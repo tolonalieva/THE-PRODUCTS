@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+    padding: 0 15px;
+}
+.main-block{
+    background-image: url(../img/card1.png);
+    background-size: cover;
+    text-transform: uppercase;
+    background-color: #F74C55;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    max-width: 100px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.items{
+    padding: 10px;
+}
+.btn{
+    border: 1px solid rgb(250, 255, 255);
+    border-radius: 14px;
+    padding: 15px 20px;
+}
+.card{
+    max-width: 34%;
+    padding: 20% 0;
+    margin: auto 8% auto auto;
+    letter-spacing: 0.15em;
+}
+.card h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+.card p{
+    font-weight: 700;
+    font-size: 17px;
+}
+.text-1{
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.text{
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.card-img{
+    display: inline-block;
+    background: no-repeat repeat-x 0 100%;
+    margin-bottom: 111px;
+}
+.about-product{
+    background-color: #2D5F3B;;
+    color: #FFFDFD;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 42px;
+    box-sizing: border-box;
+}
+.box-title{
+    position: relative;
+    padding-left: 49px;
+}
+.box-title::before{
+    content: "";
+    width: 39px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    background-repeat: no-repeat;
+}
+.box-title1::before{
+    background-image: url(../img/icon1.png);
+    top: -11px;
+}
+.box-title2::before{
+    background-image: url(../img/icon2.png);
+    top: -8px;
+}
+.box-title3::before{
+    background-image: url(../img/icon3.png);
+}
+
+.box-2{
+    background-color: #F74C55;
+}
+.box-btn{
+    padding: 8px 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 28px;
+    background: rgba(28, 28, 28, 0.53);
+}
+.footer-block{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.footer-block-container{
+    background-image: url(../img/lotka.png);
+    background-color: rgba(0, 0, 0, 0.74);
+    background-blend-mode: multiply;
+    padding: 10% 0;
+    font-size: 24px;
+}
+.footer{
+    text-align: center;
+    font-size: 22px;
+    color: #949494;
+    letter-spacing: 0.15em;
+    padding: 26px;
+    background: url(../img/footer-line.png) repeat-x 100% 0 ;
+}
+.btn1{
+    border: 1px solid rgb(250, 255, 255);
+    border-radius: 24px;
+    padding: 7px 20px;
+}

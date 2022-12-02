@@ -1,0 +1,11 @@
+@media screen and (max-width: 992px) {
+    .card{
+        margin: 0 auto;    
+    }
+    .boxs{
+        display: block;
+    }
+    .box{
+        width: 100px;
+    }
+}
